@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: "frank-api"
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/frankdatabase"
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
